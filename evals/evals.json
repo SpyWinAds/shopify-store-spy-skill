@@ -1,0 +1,34 @@
+{
+ "skill_name": "spywinads-store-spy",
+ "evals": [
+  {
+   "id": 1,
+   "name": "store-paused-vi",
+   "prompt": "soi ads store aluckgoodate.com giúp mình, store này đang scale không?",
+   "files": [],
+   "assertions": [
+    "Calls SpyWinAds tools at most 3 times",
+    "Answers in the user's language, incl. table headers",
+    "Video age given as date + number of days",
+    "Has a limits line: no spend / revenue data",
+    "Never claims profit / winning / making sales",
+    "Status is Paused (0 live ads), not scaling",
+    "Says other stores still run some of its videos when stores_running_now > 0"
+   ]
+  },
+  {
+   "id": 2,
+   "name": "store-en",
+   "prompt": "what facebook ads is mrfluffyfriend.com running right now?",
+   "files": [],
+   "assertions": [
+    "Calls SpyWinAds tools at most 3 times",
+    "Answers in the user's language, incl. table headers",
+    "Video age given as date + number of days",
+    "Has a limits line: no spend / revenue data",
+    "Never claims profit / winning / making sales",
+    "One status label with the numbers behind it"
+   ]
+  }
+ ]
+}
