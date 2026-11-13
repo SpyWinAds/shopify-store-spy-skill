@@ -46,7 +46,7 @@ ChatGPT Free cannot add a custom MCP yet: use Claude.ai Free (above), or the fre
 claude mcp add --transport http spywinads https://spywinads.com/mcp
 git clone https://github.com/SpyWinAds/shopify-store-spy-skill ~/.claude/skills/spywinads-store-spy
 ```
-Then `/mcp` → spywinads → sign in.
+Then type `/mcp` → spywinads → finish the sign-in in the browser (adding it alone does not connect it).
 
 ### Codex / Cursor / other agents
 Free API key at https://spywinads.com/developers → MCP `https://spywinads.com/mcp`, header `Authorization: Bearer <key>` (never in the
@@ -64,7 +64,7 @@ URL). Paste SKILL.md into `AGENTS.md` / your rules.
 
 ## Limits (plainly)
 
-Free: 30 credits a day (1 tool call = 1 credit; one lookup ≈ 1–3). Paid plans: 100. Data = Meta ads shown in the US, scanned by
+Free: 30 credits a day (1 tool call = 1 credit; this skill usually needs 1 per lookup). Paid plans: 100. Data = Meta ads shown in the US, scanned by
 SpyWinAds users. Counts are the minimum ads observed: **no spend, reach, orders or revenue**. Many ads or many stores means tested or
 copied, **not proven to sell**.
 
